@@ -23,6 +23,11 @@ mkcd() { mkdir -p "$1" && cd "$1"; }   # make a folder and immediately go into i
 ```bash
 export PATH="$PATH:/my/tools"
 ```
++ Update it permanently
+```bash
+echo 'line' >> ~/.zshrc
+source ~/.zshrc
+```
 
 # ssh
 + Generate an ssh key

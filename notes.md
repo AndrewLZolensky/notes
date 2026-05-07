@@ -5,6 +5,28 @@
 / # filesystem root dir
 ```
 
+# conda
++ create env
+```bash
+conda create -y -p "path/to/env" python=3.11 -c conda-forge
+```
++ activate/deactivate
+```bash
+conda activate path/to/env
+conda deactivate
+```
+
+# venv
++ create a virtual environment called env in the current dir
+```bash
+python3 -m venv env
+```
++ activate/deactivate
+```bash
+source env/bin/activate
+deactivate
+```
+
 # terminal settings (rc)
 + Cat it:
 ```bash
